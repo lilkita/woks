@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Pagination
 gem "will_paginate", "~> 3.0.6"
+gem "bootstrap-will_paginate", "0.0.10"
 
 
 #added gem from Firehose Instructions
