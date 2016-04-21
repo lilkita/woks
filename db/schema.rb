@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20160421184103) do
     t.datetime "updated_at"
     t.integer  "user_id"
     t.float    "latitude"
-    t.float    "longitutde"
+    t.float    "longitude"
   end
 
   add_index "places", ["user_id"], name: "index_places_on_user_id", using: :btree
