@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem "geocoder"
+gem "figaro", ">= 1.0.0"
+
 # Pagination
 gem "will_paginate", "~> 3.0.6"
 gem "bootstrap-will_paginate", "0.0.10"
