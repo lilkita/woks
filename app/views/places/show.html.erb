@@ -28,7 +28,10 @@
     src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
 
     <div id="map"></div>
+    <% end %>
+
     <br />
+    
       <div class="pull-right">
         <% if current_user && current_user ==@place.user %>
           <%= link_to "Edit", edit_place_path(@place), class: "btn btn-primary" %>
@@ -36,5 +39,5 @@
         <% end %>
       </div>
     </div>
-<% end %>
+
 
