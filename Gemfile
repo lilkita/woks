@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem "geocoder"
 gem "figaro", ">= 1.0.0"
+gem "carrierwave"
 
 # Pagination
 gem "will_paginate", "~> 3.0.6"
