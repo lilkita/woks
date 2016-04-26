@@ -6,8 +6,6 @@ class CreatePhotos < ActiveRecord::Migration
       t.integer :user_id
       t.timestamps
 
-      belongs_to :user
-      belongs_to :place 
     end
 
     add_index :photos, [:user_id, :place_id]
